@@ -1,0 +1,27 @@
+.disclaimer {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.title {
+  z-index: 200;
+}
+
+.no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.opaque {
+  color: rgba(255, 255, 255, 0.5);
+}

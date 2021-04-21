@@ -1,0 +1,35 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--main-background);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+button {
+  height: 50px;
+  width: fit-content;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: none;
+  background-color: var(--spotify_main);
+  color: var(--font-main-white);
+  border-radius: 25px;
+  margin: 20px 0;
+}
+
+button:hover {
+  box-shadow: #8e8d8d 2px 2px 8px 0px;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
